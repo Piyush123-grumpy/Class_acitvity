@@ -1,0 +1,6 @@
+N=int(input('enter the time in minutes:'))
+hours=(N//60)
+minutes=(N%60)
+print(f'the hours is {hours}')
+print(f'the minutes is {minutes}')
+print(f'Its {hours}:{minutes} now')
